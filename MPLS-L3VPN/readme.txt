@@ -1,6 +1,7 @@
 Here we have 4 Customer sites:
 Customer A and Customer B each has 2 sites.
 what i did here was to connect these customers sites to each other using MPLS L3VPN.
+(you need vIOS image to run this lab)
 
 configuretions :
 Core MPLS : OSPF 1
@@ -19,3 +20,4 @@ Route Target : 100:100
 CUSTOMER-B: 
 Route Distinguisher : 20:20
 Route Target : 200:200
+
